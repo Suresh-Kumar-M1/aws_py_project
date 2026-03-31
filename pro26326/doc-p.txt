@@ -1,0 +1,28 @@
+Day -1 
+Project - vpc
+
+
+step-1
+create vpc
+ with 2 subnets
+  0ne public and one private
+  
+step-2
+give internet access to public subnet
+and create one sequrity group for baston server ec2
+and create ec2 instance
+
+step-3
+create wep server ec2 with private subnet
+create sequrity group for instance
+
+step -4 
+connect the boston server
+and in the inside the now connect web server use of key pair
+
+we want to create new file in baston server and we want to paste the key that file and give access for the file - chmod 400
+
+use to connect - ssh -i <fie name>@ec2-user<private ip> - web server
+
+step - 5
+ now we want to give the internet access to the web server using NATgateway
